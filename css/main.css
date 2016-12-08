@@ -1,0 +1,50 @@
+form#add-todo {
+  margin: 20px 0;
+}
+
+
+input[type="text"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+
+}
+
+input[type='submit']{
+  border: none;
+}
+
+label input[type="checkbox"]{
+  position: relative;
+  top: -2px;
+  left: 6px;
+}
+
+.todo-item {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+
+ul.todo-list {
+  list-style-type: none;
+  margin-top: 120px;
+}
+
+ul.todo-list li {
+  position: relative;
+}
+
+ul.todo-list li form input{
+  position: absolute;
+  top: -8px;
+  left: 30px;
+}
+
+
+.done-true {
+  text-decoration: line-through;
+  color: #ccc;
+}
